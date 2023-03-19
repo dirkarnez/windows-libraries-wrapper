@@ -6,6 +6,10 @@ From [c++ - Is it possible to use std::unique_ptr to manage DLL resource? - Stac
 - [x] shcore.dll
 - [ ] generic library
 - [ ] Unicode?
+- [ ] [Shlobj.h header - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/api/shlobj/)
+- [ ] [build fail on Windows: missing ShellScalingAPI.h · Issue #9 · cycfi/elements](https://github.com/cycfi/elements/issues/9)
+- [ ] [winsdk-10/ShlObj.h at master · tpn/winsdk-10](https://github.com/tpn/winsdk-10/blob/master/Include/10.0.10240.0/um/ShlObj.h)
+- [ ] [dirkarnez/qtbase-prebuilt: Qt Base (Core, Gui, Widgets, Network, ...)](https://github.com/dirkarnez/qtbase-prebuilt)
 
 ### Reference
 - [Using Run-Time Dynamic Linking - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking)
