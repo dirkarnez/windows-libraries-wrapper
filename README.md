@@ -10,6 +10,7 @@ From [c++ - Is it possible to use std::unique_ptr to manage DLL resource? - Stac
 - [ ] [build fail on Windows: missing ShellScalingAPI.h · Issue #9 · cycfi/elements](https://github.com/cycfi/elements/issues/9)
 - [ ] [winsdk-10/ShlObj.h at master · tpn/winsdk-10](https://github.com/tpn/winsdk-10/blob/master/Include/10.0.10240.0/um/ShlObj.h)
 - [ ] [dirkarnez/qtbase-prebuilt: Qt Base (Core, Gui, Widgets, Network, ...)](https://github.com/dirkarnez/qtbase-prebuilt)
+- [ ] https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8/+/refs/heads/emu-2.4-release/x86_64-w64-mingw32/include/shobjidl.h
 
 ### Reference
 - [Using Run-Time Dynamic Linking - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/dlls/using-run-time-dynamic-linking)
