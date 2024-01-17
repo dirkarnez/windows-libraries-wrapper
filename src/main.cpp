@@ -38,6 +38,7 @@ int main()
     };
     typedef HRESULT(__stdcall * SetProcessDpiAwareness_t)(ProcessDpiAwareness);
 
+    // how about  pPrefetchVirtualMemory = reinterpret_cast<decltype(pPrefetchVirtualMemory)> (GetProcAddress(hKernel32, "PrefetchVirtualMemory"));
     SetProcessDpiAwareness_t SetProcessDpiAwareness = reinterpret_cast<SetProcessDpiAwareness_t>(::GetProcAddress(shcore.get(), "SetProcessDpiAwareness"));
 
     if (SetProcessDpiAwareness != NULL)
